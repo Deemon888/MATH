@@ -47,7 +47,7 @@ sleep 2
 echo -en "\nwhat is 123 - 123 + 123 + 123 - 123 - 123 - 123 ?\n> "
 read A3
 
-if [[ $A3 == "123" ]]
+if [[ $A3 == "123" ]]; then
         echo "that was eazy"
         sleep 2
 elif [[ $A3 == "246" ]]; then
